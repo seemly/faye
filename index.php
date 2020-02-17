@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>My website</title>
+    <title>My website | Faye Sparshott</title>
 
     <link href="https://fonts.googleapis.com/css?family=Lemonada:400,600&display=swap" rel="stylesheet" />
 
