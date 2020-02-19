@@ -7,30 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lemonada:400,600&display=swap" rel="stylesheet" />
 
     <style>
-        html,
-        body {
-            height: 100%;
-            padding: 0;
-            margin: 0;
-        }
-
-        body {
-            font-family: "Lemonada", cursive;
-            background: pink url("https://media.giphy.com/media/xUOwGfV7UYp0E6cb1m/giphy.gif") repeat 0 0;
-        }
-
-        h1,
-        h2 {
-            color: #c77b88;
-        }
-
-        #page {
-            min-height: 100%;
-            width: 1024px;
-            padding: 40px;
-            margin: 0 auto;
-            background-color: rgba(255, 255, 255, 0.75);
-        }
+        <?php include 'styles.css'; ?>
     </style>
 </head>
 
@@ -59,7 +36,26 @@
 
         <div id="media">
             <h2>Media</h2>
-            <p>Here are some images and videos that I like.</p>
+            <p>Here are some images that I like.</p>
+
+            <div class="images">
+                <div class="image">
+                    <img src="https://media.giphy.com/media/3o7qE7Hbomm69hYr04/giphy.gif" alt="">
+                </div>
+
+                <div class="image">
+                    <img src="https://media.giphy.com/media/VxbvpfaTTo3le/giphy.gif" alt="">
+                </div>
+
+                <div class="image">
+                    <img src="https://media.giphy.com/media/uWYjSbkIE2XIMIc7gh/giphy.gif" alt="">
+                </div>
+
+                <div class="image">
+                    <img src="https://media.giphy.com/media/U78wKLnlpdIQQgpNK2/giphy.gif" alt="">
+                </div>
+
+            </div>
         </div>
     </div>
 </body>

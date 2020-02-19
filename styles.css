@@ -1,0 +1,48 @@
+html,
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Lemonada", cursive;
+	background: pink url("https://media.giphy.com/media/xUOwGfV7UYp0E6cb1m/giphy.gif") repeat 0 0;
+}
+
+h1,
+h2 {
+	color: #c77b88;
+}
+
+#page {
+	min-height: 100%;
+	width: 1024px;
+	padding: 40px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+.images {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex: 0 0 auto;
+}
+
+.image {
+	max-width: 45%;
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 auto;
+	margin: 10px;
+}
+
+.image img {
+	height: auto;
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	background: white;
+	transform: rotate(1.5deg);
+}
