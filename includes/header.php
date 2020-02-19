@@ -15,5 +15,5 @@
     <div id="page">
         <nav>
             <a href="/">Home</a>
-            <a href="/jokes.php">Jokes</a>
+            <a href="/jokes">Jokes</a>
         </nav>
