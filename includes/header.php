@@ -14,6 +14,6 @@
 <body>
     <div id="page">
         <nav>
-            <a href="/">Home</a>
+            <a href="/index">Home</a>
             <a href="/jokes">Jokes</a>
         </nav>
