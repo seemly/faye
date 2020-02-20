@@ -46,3 +46,9 @@ h2 {
 	background: white;
 	transform: rotate(1.5deg);
 }
+
+/* joke styles */
+.joke {
+	border-top: 1px solid rgb(230, 148, 230);
+	padding: 10px 0;
+}
