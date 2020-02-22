@@ -9,6 +9,8 @@
     <style>
         <?php include 'styles.css'; ?>
     </style>
+
+    <?php include 'includes/google-analytics.php'; ?>
 </head>
 
 <body>
