@@ -14,6 +14,6 @@
 <body>
     <div id="page">
         <nav>
-            <a href="/index">Home</a>
-            <a href="/jokes">Jokes</a>
+            <a href="/index" class="button button--default">Home</a>
+            <a href="/jokes" class="button button--default">Jokes</a>
         </nav>
