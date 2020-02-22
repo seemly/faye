@@ -1,6 +1,6 @@
 <?php include 'includes/header.php'; ?>
 
-<h1>Here are some jokes I like</h1>
+<h1>Random Cat Joke Generator</h1>
 
 <div class="jokes">
     <?php
@@ -32,17 +32,18 @@
     ];
     ?>
 
+    <a href="/jokes" class="button">Make joke</a>
+
     <?php if ($jokes ?? []) : ?>
-        <?php foreach ($jokes as $joke) : ?>
+        <?php
+        $jokesCount = count($jokes);
+        $randomNumber = rand(0, $jokesCount - 1);
+        ?>
 
-
-            <div class="joke">
-                <p><strong><?= $joke['question']; ?></strong></p>
-                <p><?= $joke['answer']; ?></p>
-            </div>
-
-
-        <?php endforeach; ?>
+        <div class="joke">
+            <p><strong><?= $jokes[$randomNumber]['question']; ?></strong></p>
+            <p><?= $jokes[$randomNumber]['answer']; ?></p>
+        </div>
     <?php endif; ?>
 </div>
 

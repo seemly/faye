@@ -49,6 +49,21 @@ h2 {
 
 /* joke styles */
 .joke {
-	border-top: 1px solid rgb(230, 148, 230);
-	padding: 10px 0;
+	padding: 100px 0 20px;
+}
+
+.joke p {
+	max-width: 75%;
+	margin: 0 auto 40px;
+	line-height: 1;
+	font-size: 50px;
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	background-color: pink;
+	color: white;
+	text-decoration: none;
+	padding: 6px 10px;
 }
