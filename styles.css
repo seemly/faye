@@ -15,6 +15,22 @@ h2 {
 	color: #c77b88;
 }
 
+/* buttons */
+.button {
+	padding: 6px 12px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 3px;
+	display: inline-block;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.button--pink {
+	color: white;
+	background-color: pink;
+}
+
+/* page */
 #page {
 	min-height: 100%;
 	width: 1024px;
@@ -23,6 +39,7 @@ h2 {
 	background-color: rgba(255, 255, 255, 0.75);
 }
 
+/* image gallery */
 .images {
 	display: flex;
 	flex-direction: row;
@@ -60,10 +77,6 @@ h2 {
 	text-align: center;
 }
 
-.button {
-	display: inline-block;
-	background-color: pink;
-	color: white;
-	text-decoration: none;
-	padding: 6px 10px;
+.joke p + p {
+	font-size: 40px;
 }

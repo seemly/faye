@@ -32,7 +32,7 @@
     ];
     ?>
 
-    <a href="/jokes" class="button">Make 🐱 Joke</a>
+    <a href="/jokes" class="button button--pink">Make 🐱 Joke</a>
 
     <?php if ($jokes ?? []) : ?>
         <?php
