@@ -16,6 +16,10 @@
     </ul>
 </div>
 
+<div class="image">
+    <img src="assets/images/image.php?filename=gemmasaurus.jpg&width=400" alt="" />
+</div>
+
 <div id="media">
     <h2>Media</h2>
     <p>RANDOM CAT!</p>
